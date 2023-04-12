@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "388366305305",
-    "project_id": "easyjetchat-e9959",
-    "storage_bucket": "easyjetchat-e9959.appspot.com"
+    "project_number": "930817406539",
+    "project_id": "easyjetchat-eabaa",
+    "storage_bucket": "easyjetchat-eabaa.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:388366305305:android:09891499f9fa05ed2b0288",
+        "mobilesdk_app_id": "1:930817406539:android:d96c11c973b1f126dcbfce",
         "android_client_info": {
           "package_name": "com.example.easy_jet_chat"
         }
       },
       "oauth_client": [
         {
-          "client_id": "388366305305-9osn70b9j5kejo06rovviqnhn0imhcd5.apps.googleusercontent.com",
+          "client_id": "930817406539-r8pdrdaacf9ddep84purb968j51nnkj9.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyClZOfubCooTtcHfqxeEmgMUVfoTk2b4xo"
+          "current_key": "AIzaSyCbL-YOrhraTfmg0MlCy7_4S0naOrpqmYk"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "388366305305-9osn70b9j5kejo06rovviqnhn0imhcd5.apps.googleusercontent.com",
+              "client_id": "930817406539-r8pdrdaacf9ddep84purb968j51nnkj9.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
