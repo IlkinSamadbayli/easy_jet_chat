@@ -3,7 +3,7 @@ import 'package:easy_jet_chat/pages/home_page.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 
-import 'pages/login_page.dart';
+import 'pages/auth/login_page.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -42,10 +42,9 @@ class _MyAppState extends State<MyApp> {
       title: 'Flutter Demo',
       theme: ThemeData(
         primarySwatch: Colors.blue,
-        
       ),
       debugShowCheckedModeBanner: false,
-      home: _isLoggedIn? const HomePage() : const LoginPage(),
+      home: _isLoggedIn ? const HomePage() : const LoginPage(),
     );
   }
 }
