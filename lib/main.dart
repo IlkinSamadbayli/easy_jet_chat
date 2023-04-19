@@ -1,14 +1,18 @@
 import 'package:easy_jet_chat/helper/helper_function.dart';
 import 'package:easy_jet_chat/pages/home_page.dart';
+import 'package:easy_jet_chat/provider/onchanged_provider.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
 
 import 'pages/auth/login_page.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp();
-  runApp(const MyApp());
+  runApp(MultiProvider(providers: [
+    ChangeNotifierProvider(create: (context) => OnchangedProvider())
+  ], child: const MyApp()));
 }
 
 class MyApp extends StatefulWidget {
