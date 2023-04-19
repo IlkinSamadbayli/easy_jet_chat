@@ -3,6 +3,7 @@ import 'package:easy_jet_chat/pages/home_page.dart';
 import 'package:easy_jet_chat/provider/onchanged_provider.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:provider/provider.dart';
 
 import 'pages/auth/login_page.dart';
@@ -42,7 +43,7 @@ class _MyAppState extends State<MyApp> {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return GetMaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
         primarySwatch: Colors.blue,

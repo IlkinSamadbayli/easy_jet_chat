@@ -62,10 +62,9 @@ class CustomTextStyle {
     fontSize: 18,
     fontFamily: "Josefin Sans",
   );
-    static TextStyle tinyStyleUnderline = TextStyle(
+    static TextStyle tinyStyleUnderline = const TextStyle(
     decoration: TextDecoration.underline,
     fontSize: 18,
-    color: AppColor.errorColor,
     fontFamily: "Josefin Sans",
   );
   static TextStyle tinyStyleGreen = TextStyle(

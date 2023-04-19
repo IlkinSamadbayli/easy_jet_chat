@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 
 
-import '../../constants/sizedbox.dart';
-import '../../styles/colors/app_colors.dart';
-import '../../styles/styles/custom_text_style.dart';
-import '../../styles/styles/global_border_style.dart';
+import '../constants/sizedbox.dart';
+import '../styles/colors/app_colors.dart';
+import '../styles/styles/custom_text_style.dart';
+import '../styles/styles/global_border_style.dart';
 
 class GlobalButton extends StatelessWidget {
   final String text;
